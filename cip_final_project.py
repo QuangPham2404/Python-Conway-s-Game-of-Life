@@ -6,8 +6,8 @@ import time
 # initializing the canvas
 root = Tk()
 root.title("Game of Life")
-W = 800  # canvas width
-H = 800  # canvas height
+W = 400  # canvas width
+H = 400  # canvas height
 DELAY_TIME = 0.2
 canvas = Canvas(root, width=W, height=H, bg="white")
 canvas.pack()
